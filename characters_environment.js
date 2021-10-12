@@ -123,7 +123,7 @@ function game(){
 
 function start_game(){
   GameStatus = "start";
-  document.getElementsById("status").innerHTML = "Game is Loading";
+  document.getElementById("status").innerHTML = "Game is Loading";
 }
 
 function changeGameStatud(character){
